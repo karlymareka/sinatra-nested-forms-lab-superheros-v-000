@@ -1,7 +1,7 @@
 require 'pry'
 class Team
   
-  attr_accessor :name, :weight, :height
+  attr_accessor :name, :motto
   @@all = []
   
   def initialize(params)
