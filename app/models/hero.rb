@@ -6,8 +6,8 @@ class Hero
   
   def initialize(args)
     @name = args[:name]
-    @type = args[:power]
-    @booty = args[:bio] 
+    @power = args[:power]
+    @bio = args[:bio] 
     @@all << self 
   end 
    
