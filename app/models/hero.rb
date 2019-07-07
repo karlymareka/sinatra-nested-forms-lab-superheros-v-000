@@ -1,7 +1,7 @@
 require 'pry'
 class Hero 
   
-  attr_accessor :name, :type, :booty
+  attr_accessor :name, :power, :bio
   @@all = []
   
   def initialize(args)
